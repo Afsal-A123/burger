@@ -14,7 +14,7 @@ export default function NavigationBar() {
 
         <div className="part-2">
           <nav>
-            <ul className="list-inline mb-0">
+            <ul >
               <li className="list-inline-item">
                 <Button>Home</Button>
               </li>
@@ -26,10 +26,13 @@ export default function NavigationBar() {
         </div>
 
         <div className="part-3">
-          <Button variant="contained" color="primary">
+        </div>
+          <Button variant="contained" color="tertiary">
             Login
           </Button>
-        </div>
+          <Button variant="contained" color="info">
+            Sign Up
+          </Button>
       </div>
     </header>
   );
