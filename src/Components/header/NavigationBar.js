@@ -27,7 +27,7 @@ export default function NavigationBar() {
 
         <div className="part-3">
         </div>
-          <Button variant="contained" color="tertiary">
+          <Button variant="outlined" color="tertiary">
             Login
           </Button>
           <Button variant="contained" color="info">
