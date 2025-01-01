@@ -1,0 +1,40 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden; 
+    background-color: #f8f8f8;
+    position: relative;
+    white-space: nowrap; 
+  }
+  
+  .marquee-content {
+    display: inline-flex; 
+    animation: slide 20s linear infinite; 
+  }
+  
+  .marquee-content p {
+    display: flex;
+    align-items: center; 
+    margin: 0 20px 0px 5px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: rgb(250, 120, 120);
+    white-space: nowrap;
+  }
+  
+  .marquee-content img {
+    width: 16px; 
+    height: 16px;
+    margin-left: 30px;
+  }
+  
+  
+ 
+  @keyframes slide {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

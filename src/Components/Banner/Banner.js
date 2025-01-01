@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import image1 from '../../asserts/image1.png'
-import image from '../../asserts/image.png';
+import image3 from '../../asserts/image3.png';
 import image2 from '../../asserts/image2.png';
 export default function Banner()
 {
@@ -24,16 +24,16 @@ export default function Banner()
         <div className="Banner-Section">
           <Slider {...settings}>
             <div>
-              <img className="w-100" src={image2} alt="Banner 1"  />
+              <img className="img" src={image2} width={1000} alt="Banner 1"  />
             </div>
             <div>
-              <img className="w-100" src={banner5} alt="Banner 2" />
+              <img className="img" src={banner5} width={1000}alt="Banner 2" />
             </div>
             <div>
-              <img className="w-100" src={image} alt="Banner 3" />
+              <img className="img" src={image3} width={1000} alt="Banner 3" />
             </div>
             <div>
-              <img className="w-100" src={image1} alt="Banner 3" />
+              <img className="img" src={image1} width={1000} alt="Banner 3" />
             </div>
           </Slider>
         </div>

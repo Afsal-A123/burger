@@ -1,26 +1,36 @@
-.Banner-Section {
-    width: 100%;
-    height: 500px; /* Fixed height for the slider */
-    overflow: hidden; /* Hide any overflow from images */
+.marquee-container {
+  width: 100%;
+  overflow: hidden; 
+  white-space: nowrap; 
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-flex; 
+  animation: slide 20s linear infinite; 
+}
+
+.marquee-content p {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 30px; 
+  font-size: 18px;
+  color: #333;
+}
+
+.marquee-content img {
+  width: 100%; 
+  height: 100%;
+  margin-left: 5px; 
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); 
   }
-  
-  .Banner-Section img {
-    width: 90%; /* Full container width */
-    height: 150%; /* Full container height */
-    object-fit: cover; /* Scale image to cover the container while maintaining aspect ratio */
-    border-radius: 10px; /* Optional: rounded corners */
+  100% {
+    transform: translateX(-50%); 
   }
-  
-  .Banner-Section img:hover {
-    transform: scale(1.1);
-  }
-  
-  .slick-slide img {
-    display: block;
-    margin: auto;
-  }
-  
-  .slick-dots li button:before {
-    color: #000; /* Dots color */
-  }
-  
+}
