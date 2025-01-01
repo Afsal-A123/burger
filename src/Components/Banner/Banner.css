@@ -24,6 +24,11 @@
   height: 100%;
   margin-left: 5px; 
 }
+.Banner-Section img{
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
 
 
 @keyframes slide {

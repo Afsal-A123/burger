@@ -23,18 +23,26 @@ export default function Banner()
       return (
         <div className="Banner-Section">
           <Slider {...settings}>
+            <center>
             <div>
               <img className="img" src={image2}  alt="Banner 1"  />
             </div>
+            </center>
+            <center>
             <div>
               <img className="img" src={banner5} alt="Banner 2" />
             </div>
+            </center>
+            <center>
             <div>
               <img className="img" src={image3}  alt="Banner 3" />
             </div>
+            </center>
+            <center>
             <div>
               <img className="img" src={image1}  alt="Banner 3" />
             </div>
+            </center>
           </Slider>
         </div>
 
