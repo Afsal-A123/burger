@@ -24,16 +24,16 @@ export default function Banner()
         <div className="Banner-Section">
           <Slider {...settings}>
             <div>
-              <img className="img" src={image2} width={1000} alt="Banner 1"  />
+              <img className="img" src={image2}  alt="Banner 1"  />
             </div>
             <div>
-              <img className="img" src={banner5} width={1000}alt="Banner 2" />
+              <img className="img" src={banner5} alt="Banner 2" />
             </div>
             <div>
-              <img className="img" src={image3} width={1000} alt="Banner 3" />
+              <img className="img" src={image3}  alt="Banner 3" />
             </div>
             <div>
-              <img className="img" src={image1} width={1000} alt="Banner 3" />
+              <img className="img" src={image1}  alt="Banner 3" />
             </div>
           </Slider>
         </div>
