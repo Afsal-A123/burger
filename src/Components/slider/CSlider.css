@@ -1,0 +1,116 @@
+/* General styling for the slider section */
+.CatSliderSection {
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.CatSliderSection .container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.CatSliderSection .hd {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Slider container styling */
+.cat_slider_main {
+  display: flex;
+  align-items: center;
+}
+
+/* Individual slide styling */
+.cat_slider_main .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 10px;
+}
+
+.cat_slider_main .info:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cat_slider_main .info img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.cat_slider_main .info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+/* Slick slider arrows */
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: #333;
+}
+
+.slick-dots {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #bbb;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .cat_slider_main .info img {
+    max-width: 120px;
+  }
+
+  .cat_slider_main .info h3 {
+    font-size: 14px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    width: 30px;
+    height: 30px;
+  }
+}

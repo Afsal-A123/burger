@@ -21,6 +21,12 @@ export default function NavigationBar() {
               <li className="list-inline-item">
                 <Button>Menu</Button>
               </li>
+              <li className="list-inline-item">
+                <Button>Contact</Button>
+              </li>
+              <li className="list-inline-item">
+                <Button>About Us</Button>
+              </li>
             </ul>
           </nav>
         </div>
