@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../asserts/Logo.png';
 import '../header/NavigationBar.css';
 import { Button } from '@mui/material';
-
+import { Link } from 'react-router-dom';
 export default function NavigationBar() {
   return (
     <header className="nav">
@@ -16,16 +16,16 @@ export default function NavigationBar() {
           <nav>
             <ul >
               <li className="list-inline-item">
-                <Button>Home</Button>
+                <Button><Link to="/Home">Home</Link></Button>
               </li>
               <li className="list-inline-item">
-                <Button>Menu</Button>
+                <Button><Link to="/Menu">Menu</Link></Button>
               </li>
               <li className="list-inline-item">
-                <Button>Contact</Button>
+                <Button><Link to="/Contact">Contact</Link></Button>
               </li>
               <li className="list-inline-item">
-                <Button>About Us</Button>
+                <Button><Link to="About">About Us</Link></Button>
               </li>
             </ul>
           </nav>
