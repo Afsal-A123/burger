@@ -6,6 +6,7 @@ import Menu from './Components/Menu/Menu';
 import Home from './Components/home/Home';
 function App() {
   return(
+    <div className='app'>
     <BrowserRouter>
     <NavigationBar/>
     <Routes>
@@ -14,6 +15,8 @@ function App() {
       <Route path="/About" element={<About />} />
     </Routes>
   </BrowserRouter>
+
+    </div>
 
   );
 }

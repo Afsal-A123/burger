@@ -1,0 +1,31 @@
+/* Container to hold multiple rows side by side */
+.boldRowHorizontal {
+    display: flex;
+    justify-content: space-between; /* Optional: evenly space items */
+    gap: 20px; /* Space between items */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  /* Make each rowItem take up 50% of the container width on medium and larger screens */
+  .rowItem {
+    flex: 1;
+    max-width: 48%; /* Prevents items from taking up too much space */
+    padding: 10px;
+    margin-left: 0%;
+  }
+  
+  /* Optional: Improve responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .rowItem {
+      max-width: 100%;
+    }
+  }
+  
+.boldSection .port .boldCell .boldCellInner .boldRow{
+    max-width: 1200px;
+     margin: auto; 
+     padding: 0 20px;
+}
+.btnInnertext{
+    text-decoration: none;
+}

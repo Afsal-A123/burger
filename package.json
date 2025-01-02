@@ -15,7 +15,8 @@
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.13",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "wowjs": "^1.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
