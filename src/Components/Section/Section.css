@@ -1,7 +1,8 @@
 .marquee-container {
     width: 100%;
+    height: auto;
     overflow: hidden; 
-    background-color: #f8f8f8;
+    background-color:rgb(254, 218, 175);
     position: relative;
     white-space: nowrap; 
   }
@@ -15,15 +16,15 @@
     display: flex;
     align-items: center; 
     margin: 0 20px 0px 5px; 
-    font-size: 24px; 
+    font-size: 35px; 
     font-weight: bold; 
     color: rgb(250, 120, 120);
     white-space: nowrap;
   }
   
   .marquee-content img {
-    width: 16px; 
-    height: 16px;
+    width: 24px; 
+    height: 24px;
     margin-left: 30px;
   }
   

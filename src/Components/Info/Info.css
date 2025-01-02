@@ -1,31 +1,36 @@
-/* Container to hold multiple rows side by side */
-.boldRowHorizontal {
-    display: flex;
-    justify-content: space-between; /* Optional: evenly space items */
-    gap: 20px; /* Space between items */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-  }
-  
-  /* Make each rowItem take up 50% of the container width on medium and larger screens */
-  .rowItem {
-    flex: 1;
-    max-width: 48%; /* Prevents items from taking up too much space */
-    padding: 10px;
-    margin-left: 0%;
-  }
-  
-  /* Optional: Improve responsiveness for smaller screens */
-  @media (max-width: 768px) {
-    .rowItem {
-      max-width: 100%;
-    }
-  }
-  
-.boldSection .port .boldCell .boldCellInner .boldRow{
-    max-width: 1200px;
-     margin: auto; 
-     padding: 0 20px;
+
+.boldSection .port .boldCell .boldCellInner .boldRowHorizontal {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  flex-wrap:wrap;
 }
-.btnInnertext{
-    text-decoration: none;
+
+.rowItem {
+  flex: 1;
+  max-width: 48%; 
+  padding: 10px 0px 0px 25px;
+}
+
+@media (max-width: 768px) {
+  .rowItem {
+      max-width: 100%; 
+  }
+}
+
+.boldSection .port .boldCell .boldCellInner .boldRow {
+  max-width: 1500px;
+  margin: 0px;
+  padding: 0 20px;
+}
+
+.boldSection .port .boldCell .boldCellInner .boldRowHorizontal .rowItem {
+  display: inline-block;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.boldSection .port .boldCell .boldCellInner .boldRowHorizontal .rowItem img {
+  width: 100%;
+  height: auto; 
 }

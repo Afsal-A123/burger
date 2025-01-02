@@ -34,9 +34,7 @@ export default function Info()
             <div class="boldRowInner">
               <div class="rowItem col-md-6 col-sm-12 btTextCenter animate animate-fadein inherit animated" data-width="6">
                 <div class="rowItemContent">
-                  
                   <div class="bpgPhoto btZoomInHoverType btOutlinedImage out-right">
-
                     <a href="https://fast-food.bold-themes.com/main-demo/home-landing/home-burgers/" target="_blank" title="">
                       <div class="boldPhotoBox">
                         <div class="bpbItem">
@@ -81,6 +79,9 @@ export default function Info()
       </div>
     </div>
   </div>
+  <br/>
+  <br/>
+  <br/>
 </section>
 
 );

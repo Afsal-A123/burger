@@ -1,4 +1,4 @@
-/* General styling for the slider section */
+
 .CatSliderSection {
   padding: 20px 0;
   background-color: #f9f9f9;
@@ -17,13 +17,13 @@
   text-align: center;
 }
 
-/* Slider container styling */
+
 .cat_slider_main {
   display: flex;
   align-items: center;
 }
 
-/* Individual slide styling */
+
 .cat_slider_main .info {
   display: flex;
   flex-direction: column;
@@ -57,7 +57,6 @@
   margin: 0;
 }
 
-/* Slick slider arrows */
 .slick-prev,
 .slick-next {
   z-index: 1;
@@ -98,7 +97,6 @@
   color: #333;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .cat_slider_main .info img {
     max-width: 120px;
