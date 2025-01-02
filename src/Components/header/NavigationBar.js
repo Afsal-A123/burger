@@ -25,7 +25,7 @@ export default function NavigationBar() {
                 <Button><Link to="/Contact">Contact</Link></Button>
               </li>
               <li className="list-inline-item">
-                <Button><Link to="About">About Us</Link></Button>
+                <Button><Link to="/About">About Us</Link></Button>
               </li>
             </ul>
           </nav>
