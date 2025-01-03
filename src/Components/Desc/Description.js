@@ -1,9 +1,9 @@
 import React from 'react';
 import './Description.css';
 import FeatureBox from './FeatureBox';
-import img1 from '../../asserts/img1.png'; // Update path as necessary
-import img2 from '../../asserts/img2.png'; // Add additional images as needed
-import img3 from '../../asserts/img3.png'; // Add additional images as needed
+import img1 from '../../asserts/img1.png'; 
+import img2 from '../../asserts/img2.png';
+import img3 from '../../asserts/img3.png'; 
 
 const Description = () => {
   const features = [
