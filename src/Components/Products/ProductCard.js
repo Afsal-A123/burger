@@ -1,6 +1,6 @@
 import React from 'react';
 import './Product.css'; // If it shares the same styles, otherwise use its own CSS
-import Rating from '@mui/material/Rating';
+
 
 function ProductCard({ data }) {
   return (

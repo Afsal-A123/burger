@@ -1,0 +1,65 @@
+.abox-4 {
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.abox-4-ico {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abox-4-ico img.feature-image {
+  max-width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.abox-4-ico span {
+  font-size: 50px;
+  color: #ff6347;
+}
+
+.h5-lg {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-4,
+.col-lg-4 {
+  flex: 0 0 32%;
+  max-width: 32%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .col-md-4,
+  .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
