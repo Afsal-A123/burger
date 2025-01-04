@@ -25,14 +25,15 @@ export default function Menu({ products }) {
                                 title={product.name}
                             />
                         </div>
-                        <br />
-                        <div className="information">
+                                        <div className="information">
                             <h6 className="title">{product.name}</h6>
+                            <span>{product.description}</span>
                             <span className="rating">
                                 <Rating name="Read-only" value={product.rating || 3} readOnly />
                             </span>
-                            <span className="brand1 d-block">By SpaceShip Store</span>
+                            <span className="brand1 d-block">{product.from}</span>
                             <br />
+                            <br/>
                             <div className="d-flex align-items-center box">
                                 <div className="d-flex align-items-vertical txt">
                                     <span className="price1">{formatCurrency(product.newPrice)}</span>

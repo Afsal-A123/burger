@@ -1,7 +1,7 @@
 {
   "products": [
   {
-    "id": 850,
+    "id": 100,
     "name": "CRISPY CHICKEN",
     "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
     "newPrice": 8.50,
@@ -9,17 +9,115 @@
     "image": "http://testoreact.jthemes.net/images/menu/burger-01.png",
     "category": "Burgers",
     "rating": 4.5,
+    "from": "burger king",
     "available": true
   },
     {
-      "id": 850,
+      "id": 110,
       "name": "ULTIMATE BACON",
       "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
       "newPrice": 8.50,
       "oldPrice": 10.00,
       "image": "http://testoreact.jthemes.net/images/menu/burger-02.png",
       "category": "Burgers",
-      "rating": 4.5,
+      "rating": 5,
+      "from": "burger king",
+      "available": true
+    },
+    {
+      "id": 120,
+      "name": "SMOKEY HOUSE",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-06.png",
+      "category": "Burgers",
+      "rating": 5,
+      "from": "burger king",
+      "available": true
+    },
+    {
+      "id": 130,
+      "name": "TURKEY BURGER",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-02.png",
+      "category": "Burgers",
+      "rating": 5,
+      "from": "burger king",
+      "available": true
+    },
+    {
+      "id": 140,
+      "name": "GRILLED CHICKEN BURGER",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-05.png",
+      "category": "Burgers",
+      "rating": 4,
+      "from": "burger king",
+      "available": true
+    },
+    {
+      "id": 150,
+      "name": "CLASSIC CHICKEN BURGER",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-18.jpg",
+      "category": "Burgers",
+      "rating": 3,
+      "from": "burger king",
+      "available": true
+    },
+    {
+      "id": 160,
+      "name": "SPICY CHICKEN BURGER",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-16.jpg",
+      "category": "Burgers",
+      "rating": 5,
+      "from": "burger king",
+      "available": true
+    },
+    {
+      "id": 170,
+      "name": "MUSHROOM BURGER",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-12.jpg",
+      "category": "Burgers",
+      "rating": 4,
+      "from": "burger king",
+      "available": true
+    },
+    {
+      "id": 180,
+      "name": "DOUBLE BEEF BURGER",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-14.jpg",
+      "category": "Burgers",
+      "rating": 4,
+      "from": "burger king",
+      "available": true
+    },
+    {
+      "id": 190,
+      "name": "CHICKEN CHEESE BURGER",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-11.jpg",
+      "category": "Burgers",
+      "rating": 5,
+      "from": "burger king",
       "available": true
     }
   ]
