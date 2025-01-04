@@ -1,0 +1,26 @@
+{
+  "products": [
+  {
+    "id": 850,
+    "name": "CRISPY CHICKEN",
+    "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+    "newPrice": 8.50,
+    "oldPrice": 10.00,
+    "image": "http://testoreact.jthemes.net/images/menu/burger-01.png",
+    "category": "Burgers",
+    "rating": 4.5,
+    "available": true
+  },
+    {
+      "id": 850,
+      "name": "ULTIMATE BACON",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "newPrice": 8.50,
+      "oldPrice": 10.00,
+      "image": "http://testoreact.jthemes.net/images/menu/burger-02.png",
+      "category": "Burgers",
+      "rating": 4.5,
+      "available": true
+    }
+  ]
+}
