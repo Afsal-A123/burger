@@ -2,9 +2,6 @@ import React from 'react';
 import './Product.css';
 import ProductCard from './ProductCard';
 
-
-
-
 export default function Product() {
   const data = [
     {

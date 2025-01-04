@@ -29,6 +29,11 @@ export default function CSlider() {
       image: "https://images.unsplash.com/photo-1690988109041-458628590a9e?q=60&w=3000",
       name: "Sprite",
     },
+    {
+      color: '#fffceb',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoXpnuGS1FwSwNZ9wea-xX_Y_yZiAyR11jPA&s',
+      name: 'French Fries',
+    },
   ];
 
   const [itemBg] = useState(data);
