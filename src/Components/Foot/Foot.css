@@ -1,0 +1,99 @@
+footer {
+    padding: 60px 0px;
+    font-family: "Roboto";
+  }
+  h3 {
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+  footer .part1 svg {
+    color: rgb(255, 140, 8) !important;
+  }
+  
+  footer .part2 li {
+    list-style: none;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: flex;
+  }
+  footer .part2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: auto;
+  }
+  footer .part2 .col {
+    flex: 3; 
+   
+  }
+  footer .part2 ul li a {
+    color: #000;
+    opacity: 0.8;
+    font-size: 500;
+    list-style: none;
+    margin-bottom: 7px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  footer .part2 h3 {
+    color: black;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  footer .part1 h3 {
+    color: black;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  footer .part2 ul li a:hover {
+    color: rgb(255, 140, 8) !important;
+    opacity: 1;
+    padding-left: 5px;
+  }
+  
+  footer .lastStrip {
+    padding: 15px 0px;
+    position: relative;
+  }
+  
+  footer .lastStrip .part3 {
+    position: absolute;
+    right: 15px;
+  }
+  
+  footer .list-inline-item {
+    margin-left: 5px;
+  }
+  footer .lastStrip .part3 ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 140, 8);
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out !important;
+  }
+  footer .lastStrip .part3 ul li a svg {
+    color: #fff !important;
+    font-size: 20px;
+  }
+  footer .lastStrip .part3 ul li a:hover {
+    background-color: #f6bd60;
+  }
+  
+  footer .lastStrip .part3 ul {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 10px; 
+    padding: 0; 
+    margin: 0px 10px; 
+    list-style: none; 
+  }
+  footer .lastStrip .part3 h5{
+    margin-right: 8px;
+  }
+ 
