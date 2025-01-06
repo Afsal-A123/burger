@@ -16,7 +16,14 @@
   align-items: center;
   justify-content: space-between;
 }
+.part-2 .list-inline-item
+{
+ 
+    border-bottom: none; /* Removes any bottom border */
+    box-shadow: none;    /* Removes any shadow effect */
 
+
+}
 .nav .part-1 {
   display: flex;
   justify-content: flex-start;
