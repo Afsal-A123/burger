@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import {
+  Button,
+  Modal,
+  Box,
+} from '@mui/material';
+import { FcGoogle } from 'react-icons/fc';
+import { Visibility, VisibilityOff } from '@mui/icons-material';
 import Logo from '../../asserts/Logo.png';
 import '../header/NavigationBar.css';
-import { Button } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
+import GradientText from './GradientText';
+import Login from '../header/Login';
 
 export default function NavigationBar() {
   const navigate = useNavigate();
+  const [openLogin, setOpenLogin] = useState(false);
 
   const navigateTo = (path) => {
     navigate(path, { replace: true }); // Navigate without adding to history
@@ -21,6 +30,14 @@ export default function NavigationBar() {
         <div className="part-2">
           <nav>
             <ul>
+              <GradientText
+                colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                animationSpeed={3}
+                showBorder={false}
+                className="custom-class"
+              >
+                The Burger King
+              </GradientText>
               <li className="list-inline-item">
                 <Button onClick={() => navigateTo('/Home')}>Home</Button>
               </li>
@@ -33,18 +50,28 @@ export default function NavigationBar() {
               <li className="list-inline-item">
                 <Button onClick={() => navigateTo('/About')}>About Us</Button>
               </li>
+              <li>
+                <Button variant="outlined" color="tertiary" onClick={() => setOpenLogin(true)}>
+                  Login
+                </Button>
+              </li>
+              <li>
+                <Button variant="contained" color="info">
+                  Sign Up
+                </Button>
+              </li>
             </ul>
           </nav>
         </div>
-
-        <div className="part-3"></div>
-        <Button variant="outlined" color="tertiary">
-          Login
-        </Button>
-        <Button variant="contained" color="info">
-          Sign Up
-        </Button>
       </div>
+      
+      {/* Login Modal */}
+      <Modal open={openLogin} onClose={() => setOpenLogin(false)}>
+        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+          <Login onClose={() => setOpenLogin(false)} />
+        </Box>
+      </Modal>
     </header>
   );
 }
+
